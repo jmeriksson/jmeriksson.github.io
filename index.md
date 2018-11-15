@@ -4,3 +4,11 @@
 
 layout: home
 ---
+# Hello, and welcome welcome welcome!
+### "Welcome to what?", you might ask.
+### Well, I have no idea.
+
+#### To do:
+* [ ] Learn Jekyll
+* [ ] Learn Sass
+* [x] Procrastinate

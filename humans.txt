@@ -1,0 +1,9 @@
+/* AUTHOR */
+  Design and content: Mikael Eriksson
+  From: Kalmar, Sweden
+
+/* SITE */
+  Last update: 2018
+  Language: English
+  Doctype: HTML5
+  IDE: Visual Studio Code
