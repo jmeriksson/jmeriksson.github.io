@@ -1,5 +1,6 @@
 // Import fonts //
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
+$custom-heading-font: "Raleway", sans-serif;
 
 // My custom color scheme //
 $red: #f23c50;
@@ -29,7 +30,7 @@ body {
 
 .site-title {
   @include relative-font-size(1.625);
-  font-family: "Raleway", sans-serif;
+  font-family: $custom-heading-font;
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
@@ -130,6 +131,7 @@ body {
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $red;
 }
 
 .contact-list,
@@ -140,7 +142,7 @@ body {
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $white;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -215,6 +217,8 @@ body {
 
   > li {
     margin-bottom: $spacing-unit;
+    border-left: 1px solid $yellow;
+    padding-left: 10px;
   }
 }
 
@@ -238,9 +242,12 @@ body {
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2.125);
   letter-spacing: -1px;
   line-height: 1;
+  font-family: $custom-heading-font;
+  font-weight: bold;
+  color: $red;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);

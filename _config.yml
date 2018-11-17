@@ -23,6 +23,7 @@ twitter_username:
 github_username:  jmeriksson
 disqus:
   shortname: mikaeleriksson
+show_excerpts: true
 
 # Build settings
 markdown: kramdown

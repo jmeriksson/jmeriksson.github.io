@@ -344,6 +344,7 @@ body {
 .footer-heading {
   font-size: 18px;
   margin-bottom: 15px;
+  color: #f23c50;
 }
 
 .contact-list,
@@ -354,7 +355,7 @@ body {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #adadad;
+  color: #e9f1df;
   margin-left: -15px;
 }
 
@@ -423,6 +424,8 @@ body {
 
 .post-list > li {
   margin-bottom: 30px;
+  border-left: 1px solid #ffcb05;
+  padding-left: 10px;
 }
 
 .post-meta {
@@ -443,9 +446,12 @@ body {
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: 34px;
   letter-spacing: -1px;
   line-height: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #f23c50;
 }
 
 @media screen and (max-width: 800px) {
