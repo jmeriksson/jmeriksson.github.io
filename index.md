@@ -4,8 +4,7 @@
 
 layout: home
 ---
-# Hello, and welcome welcome welcome!
-### "Welcome to what?", you might ask.
+## Welcome to my new web site!
 ### Well, I have no idea.
 
 #### To do:
