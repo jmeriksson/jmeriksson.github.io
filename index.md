@@ -5,7 +5,7 @@
 layout: home
 ---
 ## Welcome to my new web site!
-### Well, I have no idea.
+### It's new.
 
 #### To do:
 * [ ] Learn Jekyll
